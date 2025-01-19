@@ -16,5 +16,5 @@ for key, values in needed_info.items():
                for subkey, sub_value_list in value.items():
                     for sub_value in sub_value_list:
                          print(sub_value, json_raw[key][subkey][sub_value])
-                    
+print("hello")
 
